@@ -15,6 +15,13 @@ import {
 
 export const ProjectData = [
 	{
+		id: 'scheduler_app',
+		pic: 'https://github.com/Eds-Dbug/scheduler/blob/master/public/images/screenshots/main_page.png',
+		link: 'https://github.com/Eds-Dbug/scheduler',
+		description:
+			'An app that allows for the creation of meetings between interviewers and students',
+	},
+	{
 		id: 'Videos_Search_App',
 		pic: Videos_Search_App,
 		link: 'https://eds-dbug.github.io/videos/',
