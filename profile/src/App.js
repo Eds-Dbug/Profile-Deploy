@@ -3,7 +3,7 @@ import './styles.scss';
 
 import { CertificateData } from './components/grids/CertificateData';
 import { ProjectData } from './components/grids/ProjectData';
-import { Bay, Niagra, ME} from './Profile-Pics';
+import { Bay, Niagra, me} from './Profile-Pics';
 import {
 	BikeCarousel,
 	NavBar,
