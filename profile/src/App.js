@@ -20,7 +20,7 @@ export default function App() {
 			<section className="about" id="about">
 				<h1>Home</h1>
 				<div className="pic-of-me d-inline-flex bg-secondary" id="pic-of-me">
-					<img src={Me2} class="img-fluid" alt="me" width="300" height="500" />
+					<img src={ME} class="img-fluid" alt="me" width="300" height="500" />
 				</div>
 				<div className="about-me d-inline-flex justify-content-center">
 					<TxtMap id="about" />
@@ -51,7 +51,7 @@ export default function App() {
 					</div>
 				</section>
 
-				 {/* <section className="warhammer d-flex flex-column">
+				{/* <section className="warhammer d-flex flex-column">
 					
 					<h2>Warhammer 40k</h2>
 					<div className="underConstruction">
@@ -59,7 +59,7 @@ export default function App() {
 						<h3>UNDER CONSTRUCTION</h3>
 					</div>
 				</section> */}
-			</section> 
+			</section>
 
 			<section className="project" id="project">
 				<h1>Projects & Certifications</h1>
@@ -70,7 +70,7 @@ export default function App() {
 				</div>
 				<div className="certificates">
 					<br />
-					<h1 className='mt-3'>CERTIFICATIONS</h1>
+					<h1 className="mt-3">CERTIFICATIONS</h1>
 					<GenerateGrid column="two" Data={CertificateData} />
 				</div>
 				<div className="github">
