@@ -3,7 +3,7 @@ import './styles.scss';
 
 import { CertificateData } from './components/grids/CertificateData';
 import { ProjectData } from './components/grids/ProjectData';
-import { Bay, Niagra, me} from './Profile-Pics';
+import { Bay, Niagra, ME} from './Profile-Pics';
 import {
 	BikeCarousel,
 	NavBar,
@@ -20,7 +20,7 @@ export default function App() {
 			<section className="about" id="about">
 				<h1>Home</h1>
 				<div className="pic-of-me d-inline-flex bg-secondary" id="pic-of-me">
-					<img src={me} class="img-fluid" alt="me" width="300" height="500" />
+					<img src={ME} class="img-fluid" alt="me" width="300" height="500" />
 				</div>
 				<div className="about-me d-inline-flex justify-content-center">
 					<TxtMap id="about" />
