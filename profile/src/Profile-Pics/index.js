@@ -13,8 +13,7 @@ import Random_Quote_Machine from './Random_Quote_Machine.png';
 import Survey_Form from './Survey_Form.png';
 import Personal_Portfolio_Eddies_Music from "./Personal_Portfolio_Eddie's_Music.png";
 import In_Progress from './In_Progress.jpg';
-import Me2 from './Me/me2.jpg';
-import ME from './Me/ME.jpg';
+import me from './Me/me.jpg';
 import Videos_Search_App from './Videos_Search_App.png';
 import Student_List_App from './Student_List_App.png';
 
@@ -22,8 +21,7 @@ export {
 	Bay,
 	Niagra,
 	meImg,
-	ME,
-	Me2,
+	me,
 	moustache,
 	giant,
 	JS_Algorithms_Data_Structures_Cert,
