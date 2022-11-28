@@ -16,6 +16,7 @@ import {
 export default function App() {
 	return (
 		<div className="bg-light bg-opacity-25">
+      <div className='div'></div>
 			<NavBar />
 			<section className="about" id="about">
 				<h1>Home</h1>
